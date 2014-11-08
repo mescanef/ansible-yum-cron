@@ -1,0 +1,12 @@
+---
+- name: install yum-cron package 
+  yum: name=yum-cron state=installed
+  tags: yum-cron
+
+- name: configure yum-cron
+  template: src=yum-cron.conf.j2 dest=/etc/yum/yum-cron.conf
+  tags: yum-cron
+
+- name: enable yum-cron service 
+  service: name=yum-cron state=running enabled=yes
+  tags: yum-cron

@@ -1,4 +1,4 @@
 ansible-yum-cron
 ================
 
-An Ansible example playbook for yum-cron deployment on remote hosts. 
+An Ansible playbook example - deploy 'yum-cron' tool on multiple remote hosts running Centos7/Rhel7 distro.

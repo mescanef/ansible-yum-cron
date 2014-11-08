@@ -1,0 +1,4 @@
+---
+updateOption: security
+emailTo: admin@example.com
+connectTo: mail.example.com
